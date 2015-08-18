@@ -48,7 +48,7 @@ nnoremap <leader>/ :set hlsearch!<CR>
 " Saving.
 """"""""""""""""""""" 
 
-map <leader>s :w
+map <leader>s :w<CR>
 
 """"""""""""""""""""" 
 " Window movement.
