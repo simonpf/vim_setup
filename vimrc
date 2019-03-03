@@ -33,7 +33,7 @@ set softtabstop=1
 " Master key.
 """"""""""""""""""""" 
 
-let mapleader=","
+let mapleader=" "
 
 """"""""""""""""""""" 
 " Searching.
@@ -67,16 +67,16 @@ function! WinMove(key)
   endif
 endfunction
  
-map <leader>h              :call WinMove('h')<cr>
-map <leader>k              :call WinMove('k')<cr>
-map <leader>l              :call WinMove('l')<cr>
-map <leader>j              :call WinMove('j')<cr>
+map <leader>wh              :call WinMove('h')<cr>
+map <leader>wk              :call WinMove('k')<cr>
+map <leader>wl              :call WinMove('l')<cr>
+map <leader>wj              :call WinMove('j')<cr>
 
 map <leader>wc :wincmd q<cr>
 map <leader>wr <C-W>r
 
-map <leader>H              :wincmd H<cr>
-map <leader>K              :wincmd K<cr>
-map <leader>L              :wincmd L<cr>
-map <leader>J              :wincmd J<cr>
+map <leader>wH              :wincmd H<cr>
+map <leader>wK              :wincmd K<cr>
+map <leader>wL              :wincmd L<cr>
+map <leader>wJ              :wincmd J<cr>
 
